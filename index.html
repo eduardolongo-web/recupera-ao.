@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Projeto de Matemática II</title>
+</head>
+<body>
+<h1>Meu Tema de Matemática</h1>
+<p>Aqui vou explicar o conteúdo que escolhi de Matemática II.</p>
+</body>
+Passo 3 - Inserir uma imagem
+1. Procure no Google Imagens algo relacionado a escolha do seu tema.
+2. Clique com o botão direito na imagem e copie o endereço (link) da imagem.
+3. No VS Code, adicione dentro da <body> a tag de imagem:
+<img src="LINK_DA_IMAGEM_AQUI" alt="Descrição da imagem" width="400">
+Passo 4-Inserir um vídeo do YouTube
+1. Acesse o YouTube e procure um vídeo sobre o tema.
+2. Clique em Compartilhar Incorporar Copie o código que aparece.
+3. Cole esse código dentro do <body> abaixo da imagem.
+Exemplo:
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/CÓDIGO DO VIDEO"
+title="Video de Matemática" frameborder="0" allowfullscreen></iframe>
+Passo 5-Personalizar o conteúdo
+Mude o título <h1> para o nome do tema que você escolheu.
+No parágrafo <p>, escreva um pequeno resumo com pelo menos 3 frases sobre o conteúdo.
+Troque a imagem e o vídeo para algo relacionado ao tema.
+Passo 6 - Visualizar no navegador
+1. Salve o arquivo (Commit & Push).
+2. Clique com o botão direito no VS Code e selecione Open with Live Server (se
+disponível).Código final de exemplo
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Funções Matemáticas</title>
+</head>
+<body>
+<h1>Funções Matemáticas</h1>
+<p>As funções são relações entre conjuntos que associam cada elemento do primeiro
+conjunto a um único elemento do segundo conjunto
+Elas são muito utilizadas em matemática para modelar fenômenos e resolver
+problemas do dia a dia.
+Podemos representar funções por meio de tabelas, gráficos e fórmulas.</p>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Graph_of_sloped_line.svg
+/800px-Graph_of_sloped_line.svg.png"
+alt="Gráfico de função" width="400">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cJ81xOCL0nY"
+title="Video sobre funções matemáticas" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
+Critérios de avaliação
+Estrutura HTML completa (<!DOCTYPE html>, <html>, <head>, <body>).
+Presença de titulo, texto, imagem e vídeo.
+Conteúdo do texto relacionado à autenticidade.
+Código salvo e funcionando no navegador.Atividade Avançada - Matemática II
+Tema: Criando um "EducaFlix" - Catálogo de vídeos
+Objetivo: Aprender HTML e CSS básicos para criar uma página estilizada, com seções,
+cores e múltiplos vídeos incorporados.
+Plataforma: VS Code Online https://github.com/
+Desafio
+Você vai criar uma página chamada EducaFlix para apresentar vídeos e conteúdos a sua escolha abordando:
+Sua página deve ter:
+1. Um título principal estilizado.
+2. Um banner com destaque para um vídeo principal.
+3. Uma seção com vários vídeos organizados lado a lado.
+4. Cores de fundo diferentes para cada área da página.
+Passo a passo
+Passo 1-Estrutura HTML
+Crie um arquivo index.html com este modelo:
+<IDOCTYPE html>
+<html lang="pt-BR">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head> <meta charset="UTF-8"> <title>EducaFlix</title> <style> body ( } margin: 0; font-family: Arial, sans-serif; background-color: #000033; color: white;} background-color: navy; padding: 20px; text-align: center, font-size: 2em; font-weight: bold;
+banner (
+} background-color: darkred; padding: 20px; display: flex; align-items: center, justify-content: space-aroundTema: Criando um "EducaFlix" - Catálogo de vídeos
+Objetivo: Aprender HTML e CSS básicos para criar uma página estilizada, com seções,
+cores e múltiplos vídeos incorporados.
+Plataforma: VS Code Online https://github.com/
+Desafio
+Você vai criar uma página chamada EducaFlix para apresentar vídeos e conteúdos a sua
+escolha abordando:
+Sua página deve ter:
+1. Um título principal estilizado.
+2. Um banner com destaque para um vídeo principal.
+3. Uma seção com vários vídeos organizados lado a lado.
+4. Cores de fundo diferentes para cada área da página.
+Passo a passo
+Passo 1-Estrutura HTML
+Crie um arquivo index.html com este modelo:
+<!DOCTYPE html>
+<html lang="pt-BR">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EducaFlix</title>
+<head> }
+<style> body {
+margin: 0;
+font-family: Arial, sans-serif; background-color: #000033, color: white;
+header {
+background-color: navy;
+padding: 20px;
+text-align: centerfont-size: 2em; font-weight: bold;
+banner (
+} background-color: darkred; padding: 20px; display: flex; align-items: center, justify-content: space-around; }
+banner h2 {
+}
+color: cyan: font-size: 1.8em;
+videos {
+}
+background-color: navy: padding: 20px;
+video-grid {
+display: flex;
+gap: 15px;
+flex-wrap: wrap:
+}
+video-grid iframe {
+border: none;
+}
+</style>
+</head>
+<body>
+<header>
+EducaFlix
+</header>
+<section class="banner<div>
+<h2>O Melhor Conteúdo de Matemática</h2>
+<p>#matematica #aprendizado</p>
+</div>
+<iframe width="400" height="225"
+src="https://www.youtube.com/embed/DeyQ8-Mz1-w"
+title="Video Principal" allowfullscreen></iframe>
+</section>
+<section class="videos">
+<h2>Videos Recomendados</h2>
+<div class="video-grid">
+<iframe width="250" height="140"
+src="https://www.youtube.com/embed/v=abcd1234" title="Vídeo 1"></iframe>
+<iframe width="250" height="140"
+src="https://www.youtube.com/embed/v=efgh5678" title="Video 2"></iframe>
+<iframe width="250" height="140" src="https://www.youtube.com/embed/v=ijkl9012"
+title="Video 3"></iframe>
+<iframe width="250" height="140"
+src="https://www.youtube.com/embed/v=mnop3456" title="Video 4"></iframe>
+</div>
+</section>
+</body>
+</html>Passo 2 - Personalizar
+Troque o nome EducaFlix para o título que quiser.
+Troque as cores background-color para outras combinações que você ache bonitas.
+Substitua os links do YouTube pelos vídeos de sua escolha.
+Passo 3 Critérios para entrega
+Deve ter pelo menos 5 vídeos na página.
+Usar no mínimo 3 cores de fundo diferentes.
+Título e textos personalizados para o seu tema.
+Página deve abrir no navegador e ter organização visual.
+Critérios de avaliação
+Estrutura HTML completa (<!DOCTYPE html>, <html>, <head>, <body>).
+Presença de título, texto, imagem e vídeo.
+Conteúdo do texto relacionado à autenticidade.
+Código salvo e funcionando no navegador.
